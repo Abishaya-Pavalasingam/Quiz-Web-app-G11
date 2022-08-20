@@ -1,0 +1,204 @@
+*
+{
+    box-sizing: border-box;
+}
+body .container
+{
+    background-image: url("R.jpg");
+    height: 100%;
+    z-index: -1;
+}
+.container .header
+{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    left:15%; 
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    
+
+}
+.header img
+{
+  margin-top: 20px;
+
+}
+.header h1
+{
+    margin-top: 50px;
+    padding-left: 10px;
+    
+}
+.sides .leftside
+{
+    position:absolute;
+    left:20%;
+    top:35%;
+}
+form h4
+{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 100, 100);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color:red;
+}
+
+form input[type=text]
+{
+    margin:10px;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    border:2px solid rgb(59, 56, 56);
+    
+}
+form input[type="password"]
+{
+    margin:10px;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    border:2px solid rgb(59, 56, 56)
+}
+/*form input[type=checkbox]
+{
+
+}*/
+
+.leftside form .remember_me
+{
+    margin:5px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+form .remember_me .forget_pw
+{
+    padding-left:10px;
+    background-color: aqua;
+}
+form .login
+{
+    padding-left: 50px;   
+}
+form input[type="submit"]
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:200px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+form input[type="submit"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:200px;
+    font-size:130%;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    
+    
+}
+form .create_account
+{
+    padding-left: 25px;   
+}
+form input[type="button"]
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(74, 251, 20, 0.81);
+    border-color: rgba(74, 251, 20, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:250px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+}
+form input[type="button"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(74, 251, 20, 0.81);
+    border-color: rgba(74, 251, 20, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:250px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size:130%;
+}
+
+.sides .rightside
+{
+    position:absolute;
+    left:55%;
+    margin:20px;
+    top:35%;
+    border:5px;
+    border-left-style:solid;
+    border-color: rgb(165, 167, 166);
+    border-radius: 5px;
+    
+}
+.sides .rightside h2
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family:'Secular One', sans-serif;
+
+}
+.sides .rightside p
+{
+    width:450px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Oxygen', sans-serif;
+}
+.container .footer 
+{
+    position:absolute;
+    left:0;
+    bottom:3%;
+    
+}
+.container .footer h3
+{
+    position:absolute;
+    padding-left: 26px;
+    padding-top: 8px;
+    color:rgb(240, 255, 253);
+}
+.container .footer li
+{
+    list-style: none;
+    color:rgb(240, 255, 253);
+}
