@@ -17,7 +17,7 @@
     $resultad = mysqli_query($conn, $sqlad);
     $idad = mysqli_query($conn , $sqlidad);
     
-    $mid = "";
+    
     if(mysqli_num_rows($result) == 1){
         
         $hr = mysqli_fetch_array($id);
@@ -27,7 +27,7 @@
         //echo ("logged in");
         //echo ("$empid");
         
-        header("Location: ./../departments.php?id=$mid");
+        header("Location: ./../departments.php?id=$id");
     }
     else if(mysqli_num_rows($resultad) == 1){
         
